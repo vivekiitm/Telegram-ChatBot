@@ -1,5 +1,5 @@
 from bot import telegram_chatbot
-
+from DoReply import DoReply
 bot = telegram_chatbot("config.cfg")
 
 update_id = None
@@ -14,7 +14,9 @@ while True:
                 message = str(item["message"]["text"])
             except:
                 message = None
-            from_ = item["message"]["from"]["id"]
-
-            reply = 'Hi'
-            bot.send_message(reply, from_)
+            if(message!=None):
+                from_ = item["message"]["from"]["id"]
+                user = item["message"]["from"]["first_name"]
+                print(user, message)
+                Reply = DoReply(message,from_,bot)
+                Reply.ReplyBack()
