@@ -6,11 +6,14 @@ class DoReply:
 
     def __init__(self, message, from_ , bot):
         self.bot = bot
-        self.message = message.lower()
+        try:    
+            self.message = message.lower()
+        except:
+            self.message = message
         self. from_ = from_
 
     def greeting(self):
-        user_greetings = ["hi", "hello",  "hola", "greetings",  "wassup","hey"]
+        user_greetings = ["hi", "hii", "hiii", "hello",  "hola", "greetings",  "wassup", "hey"]
         if self.message in user_greetings:
             bot_greetings = ["howdy","hi", "hey", "what's good",  "hello","hey there"]
             reply = random.choice(bot_greetings)
@@ -34,6 +37,10 @@ class DoReply:
         return reply
 
     def ReplyBack(self):
+        if(self.message == None):
+            reply = "Sorry, but I only understand text messages :("
+            self.bot.send_message(reply, self.from_)
+            return
         if(self.greeting()):
             return
         websites = self.GoogleSearch()
