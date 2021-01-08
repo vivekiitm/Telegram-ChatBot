@@ -1,0 +1,80 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["-1"],
+         "context": [""]
+        },
+        {"tag": "laptop",
+         "patterns": ["Will I need a laptop while coming to college?"],
+         "responses": ["No,in starting you wouldn't require a laptop and can buy it here only around diwali, when a lot of offers are going around."],
+         "context": ["There is no default platform. It depends on the professor which platform he is willing to use."]
+        },
+        {"tag": "Online Class",
+         "patterns": ["Where will online classes be conducted for 1st year students?"],
+         "responses": ["There is no default platform. It depends on the professor which platform he is willing to use."],
+         "context": [""]
+        },
+        {"tag": "Moodle",
+         "patterns": ["Is there any official website operated by IIT mandi where i can get every information about assignment,schedule of quizzes and classes,and list of courses?"],
+         "responses": ["Yes, there is a website operated by IIT mandi named 'moodle' where you get every information about assignment, quizzes and courses.Moodle:-https://students.iitmandi.ac.in/moodle/ "],
+         "context": [""]
+        },
+        {"tag": "Clubs",
+         "patterns": ["As there are many clubs in IIT mandi,i'm facing problems in tracking all activities and sessions of all clubs. Is there any website which contain all information about schedule of clubs?"],
+         "responses": ["Yes,you can keep track of all activities and sessions of every club up to dated on: https://activities.iitmandi.co.in/ "],
+         "context": [""]
+        },
+        {"tag": "Hangouts",
+         "patterns": ["What are the places of hangout nearby the campus? Do we have malls and theatres?"],
+         "responses": ["Sorry, but if you are city person, this isn't place for you. But if you are natural lover, you will not find a better placce than this."],
+         "context": [""]
+        },
+        {"tag": "Trekking",
+         "patterns": ["Since this is a college on mountains, do we have planned treks and how often do we get that?"],
+         "responses": ["We have clubs for trekking activities and they organise trips regularly, around twice a month."],
+         "context": [""]
+        },
+        {"tag": "Chess",
+         "patterns": ["What is Chess tournament platform of IIT Mandi?"],
+         "responses": ["Lichess"],
+         "context": [""]
+        },
+        {"tag": "Semester exchange programme",
+         "patterns": ["How many gpa is needed for semester exchange programme?"],
+         "responses": ["It’s a relative case depends on your batchmates"],
+         "context": [""]
+        },
+        {"tag": "Game",
+         "patterns": ["Most famous game of IIT Mandi?"],
+         "responses": ["Badminton and volleyball are favourites among student other than cricket, footaball and table tennis"],
+         "context": [""]
+        },
+        {"tag": "Branch change",
+         "patterns": ["If I Got less grade points than will there be change in my branch from CS to other?"],
+         "responses": ["Yes"],
+         "context": [""]
+        },
+        {"tag": "Induction",
+         "patterns": ["Can we use induction in rooms of IIT Mandi ?"],
+         "responses": ["Each floor of every hostel is equipped with basic things like iron, inductoin, microwave"],
+         "context": [""]
+        }
+
+
+   ]
+}
