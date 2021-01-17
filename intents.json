@@ -20,61 +20,154 @@
          "context": [""]
         },
         {"tag": "laptop",
-         "patterns": ["Will I need a laptop while coming to college?"],
+         "patterns": ["Will I need a laptop while coming to college?", "Will I need a require laptop in college?", "Will I need a laptop?", "When will i need laptop"],
          "responses": ["No,in starting you wouldn't require a laptop and can buy it here only around diwali, when a lot of offers are going around."],
-         "context": ["There is no default platform. It depends on the professor which platform he is willing to use."]
+         "context": [""]
         },
         {"tag": "Online Class",
-         "patterns": ["Where will online classes be conducted for 1st year students?"],
+         "patterns": ["Where will online classes be conducted", "How will online semester go"],
          "responses": ["There is no default platform. It depends on the professor which platform he is willing to use."],
          "context": [""]
         },
         {"tag": "Moodle",
-         "patterns": ["Is there any official website operated by IIT mandi where i can get every information about assignment,schedule of quizzes and classes,and list of courses?"],
+         "patterns": ["Is there any official website operated by IIT mandi where i can get every information about assignment,schedule of quizzes and classes,and list of courses?", "What is moodle", "Where will sir upload assignments?", "Where will exams be taken"],
          "responses": ["Yes, there is a website operated by IIT mandi named 'moodle' where you get every information about assignment, quizzes and courses.Moodle:-https://students.iitmandi.ac.in/moodle/ "],
          "context": [""]
         },
         {"tag": "Clubs",
-         "patterns": ["As there are many clubs in IIT mandi,i'm facing problems in tracking all activities and sessions of all clubs. Is there any website which contain all information about schedule of clubs?"],
+         "patterns": ["As there are many clubs ,i'm facing problems in tracking all activities and sessions of all clubs. Is there any website which contain all information about schedule of clubs?", "Which clubs are there", "In which clubs I can participate", "What are various clubs there", "what is gymkhana"],
          "responses": ["Yes,you can keep track of all activities and sessions of every club up to dated on: https://activities.iitmandi.co.in/ "],
          "context": [""]
         },
         {"tag": "Hangouts",
-         "patterns": ["What are the places of hangout nearby the campus? Do we have malls and theatres?"],
+         "patterns": ["What are the places of hangout nearby the campus? ", "Do we have malls and theatres?", "Where can we go on weekends", "What are nearby places to visit", "Where can we go to picnic"],
          "responses": ["Sorry, but if you are city person, this isn't place for you. But if you are natural lover, you will not find a better placce than this."],
          "context": [""]
         },
         {"tag": "Trekking",
-         "patterns": ["Since this is a college on mountains, do we have planned treks and how often do we get that?"],
+         "patterns": ["Since this is a college on mountains, do we have planned treks and how often do we get that?", "Is trekking done there", "Can we go for trekking anytime"],
          "responses": ["We have clubs for trekking activities and they organise trips regularly, around twice a month."],
          "context": [""]
         },
-        {"tag": "Chess",
-         "patterns": ["What is Chess tournament platform of IIT Mandi?"],
-         "responses": ["Lichess"],
-         "context": [""]
-        },
         {"tag": "Semester exchange programme",
-         "patterns": ["How many gpa is needed for semester exchange programme?"],
-         "responses": ["It’s a relative case depends on your batchmates"],
+         "patterns": ["What is semester exchange program?", "How much gpa is needed for semester exchange programme?"],
+         "responses": ["IIT Mandi allows its student to do a semester in foreign universities. You can check the list of foreign universities on the official website."],
          "context": [""]
         },
         {"tag": "Game",
-         "patterns": ["Most famous game of IIT Mandi?"],
-         "responses": ["Badminton and volleyball are favourites among student other than cricket, footaball and table tennis"],
+         "patterns": ["Most famous game played there?","Which sports are played here?","What kind of indoor games are there?", "What about sports", "Which games are played here"],
+         "responses": ["Sports activities are coordinated by the Principal Sports Officer and the Faculty Sports Advisor. A team of highly experienced coaches and ground staff work under their direction to help you take part in the games of your choice. Participate in various tournaments like Inter-IIT, Aagaaz, Rann-Neeti and other in-house tournaments. At Kamand, we have fields for Cricket, Football and Hockey, Basketball, Tennis, Squash, Badminton, TT and Volleyball courts. TT and Foosball tables are also available in most hostels. There is also Swimming pool, gym and yoga room etc. Football, Basketball, Cricket, Volleyball, Badminton, Hockey, Lawn Tennis, Squash, Table Tennis, Swimming and Athletics all these games are played here"],
          "context": [""]
         },
         {"tag": "Branch change",
-         "patterns": ["If I Got less grade points than will there be change in my branch from CS to other?"],
-         "responses": ["Yes"],
+         "patterns": ["If I Got less grade points than will there be change in my branch from CS to other?", "What is CGPA criteria for branch change?"],
+         "responses": ["Yes, it depends on other student as branch change is relative. You can check official website for more info regarding branch change"],
          "context": [""]
         },
         {"tag": "Induction",
-         "patterns": ["Can we use induction in rooms of IIT Mandi ?"],
-         "responses": ["Each floor of every hostel is equipped with basic things like iron, inductoin, microwave"],
+         "patterns": ["Can we use induction in rooms?", "Can I bring my own induction"],
+         "responses": ["Each floor of every hostel is equipped with basic things like iron, induction, microwave"],
+         "context": [""]
+   	},
+        {"tag": "IIT Mandi",
+         "patterns": ["Why should I choose IIT Mandi", "Why iit mandi is better than other iits", "why should i come to iit mandi"],
+         "responses": ["A:Unique curriculum with real-world design-oriented projects every year from 1st year to 4th year. Students work in teams across branches. Even in 1st and 2nd year, students do projects that are normally done only in 3rd and 4th year at other IITs. Friendly atmosphere with mingling of faculty and students. Students have easy access to faculty, Deans and the Director. The faculty participate in sports and other activities and eat in the Mess along with students. A close knit community. Himachal is the most peaceful State in India. The campus is perfectly safe, especially for girls. Situated in the serene Uhl River Valley far from cities, it is very healthy without the pollution and congestion of the cities. A healthy climate, warm in summer and cool in winter. Excellent outdoor and indoor sports facilities: cricket, football, tennis, volleyball, etc .... Unique extra-curricular activities include the Hiking & Trekking Club, the Mountain Biking Club, social outreach programs working with local school children. Himachal has many scenic spots such as Kullu, Manali, Manikaran hot springs, Dharamsala, ... where you can go for weekend outings with your friends."],
+         "context": [""]
+        },
+        {"tag": "Girls",
+         "patterns": ["Is there any special incentive given to girl students which is not available in most of the other IITs?", "Why should a girl come here", "What makes IIT Mandi Special", "How is IIT Mandi differebt than other IITs?"],
+         "responses": ["If you are admitted to IIT Mandi, you will get a merit scholarship including full tuition fee waiver and Rs. 1,000/- per month stipend in the first year irrespective of category and parent’s income. This merit scholarship will continue for all 4 years of B.Tech. subject to good academic performance of the candidate indicated by a minimum SGPA criteria of 7.0 for the previous two semesters and no disciplinary action."],
+         "context": [""]
+        },
+        {"tag": "Campus",
+         "patterns": ["Where will the freshers be accommodated?", "Where will be my hostel", "Is North Campus Ready", "How is the campus of IIT Mandi", "How big is the campus of IIT Mandi"],
+         "responses": ["IIT Mandi has 2 campus, North and South campus. North campus if fully developed and South Campus is also developing at a very fast pace and all the B.Tech. student will be made to reside in North Campus only. They can go to south campus whenever they wish in 10 minutes bus ride which run between the capus every 15 minutes."],
+         "context": [""]
+        },
+        {"tag": "Weather",
+         "patterns": ["How is the weather in Kamand like?",  "Will i need quilt in summers", "How much chilly is out there", "Will i need sweaters in when i come there"],
+         "responses": ["Weather becomes chilly after mid-October, and in winter, there is the occasional snowfall, especially in the mountains above Kamand. But in general, we have long winter vacations from early December till mid-February to keep the cold at bay. The weather is usually pleasant, especially in the evenings and is ideal for nature enthusiasts who want to explore the serene surroundings of IIT Mandi."],
+         "context": [""]
+        },
+        {"tag": "BranchChange",
+         "patterns": ["How easy is the branch change in IIT Mandi?", "What is the criterion for branch change?", "Can I get my branch change there"],
+         "responses": ["Branch change depends solely on your CGPA (Cumulative Grade Point Average) for the first two semesters. For a more details kindly have a look at the link below: http://iitmandi.ac.in/academics/branch_change.php"],
+         "context": [""]
+        },
+        {"tag": "ScholarShip",
+         "patterns": ["Can I get a scholarship", "Can i avail scholarship", "How can I get scholarship", "What is MCM scholarship", "Am I eligible for scholarship"],
+         "responses": ["Income certificates are submitted at the time of admission as mentioned on the website and applications are collected during the semester. The decision is made by the Senate to award the scholarships, and later in the second semester, students are given the scholarship reimbursing their earlier tuition fees and that of the second semester. Other details can be found here: http://iitmandi.ac.in/academics/scholarship.php"],
+         "context": [""]
+        },
+       {"tag": "Syllabus",
+         "patterns": ["What will i study in first year?", "Will I need books for studying", "What subjects will I study", "Is the syllabus of all branches same in first year?"],
+         "responses": ["There will be common courses for all of you in the first year. These first year courses include Electrical systems around us, Computing and Data Science, Mathematics, Reverse Engineering, Graphics for Design, English, German, Applied electronics, Engineering Thermodynamics, etc . List of courses for the first semester would be available on the course page linked below. More about curriculum and courses: http://www.iitmandi.ac.in/academics/courses.php \n http://iitmandi.ac.in/academics/perspective_btech_curriculum.php"],
+         "context": [""]
+        },
+       {"tag": "Internet",
+         "patterns": ["How is the internet facility on campus?", "How fast is internet there?", "Is there wifi or lan", "Will i get high speed internet in room"],
+         "responses": ["There are wifi installed all over the campus and you can assess the internet in your phone or latop. LAN cable are only provided in labs and study rooms and you can enjoy the high speed internet through wifi in hostel rooms. The spped is very good and you can even stream 4k content without lagging and sometimes you can get even speed of 0.5gbps in night. Best thing of all there is no restriction on internet usage"],
+         "context": [""]
+        },
+       {"tag": "Sharing",
+         "patterns": ["How many people will stay in a hostel room?", "Are rooms shared", "Will I be sharing my room"],
+         "responses": ["Hostels have rooms of different sizes, single, double and triple occupancy. First year students usually get a shared room."],
+         "context": [""]
+        },
+       {"tag": "library",
+         "patterns": ["Will we be buying books or we can get them from the library?", "Can i use the books from library?"],
+         "responses": ["In general, you can get the e-books for the materials that the teacher specifies. Also, you can get them from the library, though the library may have only limited copies. Local bookshops in Mandi or online stores are also of help, so are the seniors. Moodle web pages on our intranet site have all the course materials posted by faculty and students."],
+         "context": [""]
+        },
+       {"tag": "holidays",
+         "patterns": ["What is the holiday schedule of IIT Mandi?", "How much holidays will I get", "On which festivals will be there holiday"],
+         "responses": ["A generous holiday schedule is followed in here. We have a five-day working week, and at times there are other holidays in between too. Semester breaks are from December to Mid February for winters and from mid June to early August in summers. As we are following the online semester now, classes are held from Monday to Saturday, the semester breaks are also different compared to the usual schedule. Please check the academic calendar for first year students for further details. http://iitmandi.ac.in/academics/calendar.php"],
+         "context": [""]
+        },
+       {"tag": "co-curricular",
+         "patterns": ["What are the co-curricular activities and clubs at IIT Mandi?"],
+         "responses": ["The student Gymkhana organizes all extracurricular activities. Have a look at the link below for more details. https://gymkhana.iitmandi.co.in/"],
+         "context": [""]
+        },
+       {"tag": "reach",
+         "patterns": ["How to reach from Delhi/Chandigarh to Mandi?","How to come to IIT Mandi", "Which route should I take to come to IIT Mandi", "Which is the easiest way to come to IIT Mandi"],
+         "responses": ["Mandi is easily accessible from the two places by bus or by cab. From Delhi ISBT(Kashmiri gate) there is a regular bus service: Volvo, Tata AC and ordinary buses go directly to Mandi. Same is the case for Chandigarh; besides, all buses from Delhi pass through Chandigarh. You can also take the train to Chandigarh, and from there from the ISBT at Sector 43 to Mandi by bus. At Mandi ISBT, you are right in front of our Transit Campus. From there take the Institute shuttle service to Kamand campus."],
+         "context": [""]
+        },
+       {"tag": "come",
+         "patterns": ["When is the session starting for first year B.Tech students?"],
+         "responses": ["We will update you ont this. Normally it startsin first week of august"],
+         "context": [""]
+        },
+       {"tag": "ragging",
+         "patterns": ["Is there Ragging?", "Does IIT Mandi have policies against ragging?", "Is ragging practiced there", "Do seniors do ragging"],
+         "responses": ["Zero Tolerance for ragging. We have the following committees to take care of any issues, Student Welfare and Disciplinary Committee (SWDC), Anti-Ragging Committee (ARC)."],
+         "context": [""]
+        },
+       {"tag": "lost",
+         "patterns": ["What if I get lost in Kamand?", "Can somebody get lost there", "What to do if I get lost there"],
+         "responses": ["it is a small place so chances of getting lost is minimal. Keep the security numbers with you."],
+         "context": [""]
+        },
+       {"tag": "mess",
+         "patterns": ["How is the mess food?", "How Good is mess food", "Is mess food eatable", "Will I like mess food"],
+         "responses": ["The mess food is nutritional and offers a huge variety from mattar paneer to chole bhature to non veg food and not to mention the special dinner at every month's end."],
+         "context": [""]
+        },
+       {"tag": "female",
+         "patterns": ["Is it safe for female students to roam around in the IIT Mandi campus and nearby places (like Kamand village etc)?", "Is the campus safe for girls", "Can girls walk around the campus in night", "How safe the campus is for girls"],
+         "responses": ["IIT Mandi campus and nearby places are very safe to roam alone. The villagers around the campus are very friendly and ready to help anytime. There are many security guard posts across the campus."],
+         "context": [""]
+        },
+       {"tag": "dining",
+         "patterns": ["Is there any place to eat in or around campus apart from the Dining Halls?", "are there any canteens in campus", "Are canteens availabe there in night"],
+         "responses": ["There are many canteens on campus, some of which remain open till midnight or beyond."],
+         "context": [""]
+        },
+       {"tag": "placement",
+         "patterns": ["How are the placement statistics", "Do major recruiting companies come here", "What is the placement scenerio in IIT Mandi"],
+         "responses": ["80-90% students who opt for placement get placed. Salary package comparable to other IITs. Students go for higher studies, entrepreneurship etc Last year Placement in CSE was 98.27 %, EE was 84.5%, ME was 66.6% , CE 33.3%. Median Salary: 14LPA Some of the companies and organizations who came for recruitment in previous years include: ISRO, Amazon, Microsoft, Texas Instruments, Goldman Sachs, Codenation, irage capital solutions Ltd., Mastercard, Webstaff, Publicis.Sapient, Tonichi insatsu, Optum, Robert bosch,Yodlee, Domino Data lab, SMS datatech, Samsung Delhi, TCS Research, Internet Academy, Vehant, L&TMumbai, L&T ECC, Truring, Tork Motor Cycles, Novopay, Shopx, MAQ, Assanjob, Eclerx, Tejas Networks, Siemens, Cortex, Optiver, Flow traders, DEShaw, ServiceNow, Razorpay, Oyo Rooms, 1mg, BOSCH, Works Application, Toppr, Mathworks, Marvell Semiconductors, HPCL and OLX People."],
          "context": [""]
         }
-
-
    ]
 }

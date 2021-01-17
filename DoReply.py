@@ -1,4 +1,3 @@
-from englisttohindi.englisttohindi import EngtoHindi 
 from bs4 import BeautifulSoup
 import requests
 import random
@@ -20,8 +19,6 @@ class DoReply:
         if self.message in user_greetings:
             bot_greetings = ["howdy", "hi", "hey", "what's good",  "hello","hey there"]
             reply = random.choice(bot_greetings)
-            #reply = EngtoHindi(reply)
-            #print(reply.convert) 
             self.bot.send_message(reply, self.from_)
             return True
         return False
@@ -53,10 +50,13 @@ class DoReply:
         if(self.greeting()):
             return
 
-        reply = model.getOutputFromDataBase(self.message)
+        reply, haveToDoGoogle = model.chat(self.message)
         if(reply!='-1'):
             self.bot.send_message(reply, self.from_)
 
+        if(haveToDoGoogle == -1):
+            return
+            
         websites = self.GoogleSearch()
 
         if(type(websites)==str):
