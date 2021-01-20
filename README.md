@@ -12,7 +12,7 @@ Model Used:
 Sequential Neural Networks are used for searching questions in databases.
 
 How To Run:
-1. You have to enter your personnel bot token-id in config.cfg.
+1. You have to enter your private bot token-id in config.cfg.
 2. Pre-trained model is saved as saved_model.pb in the chat_model folder.
 3. In addition to it you can train the model by running train_chatbot.py.
 4. intents.json contains the dataset on which my model is being trained.
