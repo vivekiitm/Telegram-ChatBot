@@ -1,9 +1,11 @@
 Bot Name: IIT Mandi
+
 Bot UserName: IIT_Mandi_bot
 
 Github Link: https://github.com/vivekiitm/Telegram-ChatBot
 
 Features Implemented:
+
 If the answer to the question asked by the user is found in the database with accuracy more than the threshold value which is set at 60%, then the reply is given directly from the database. In addition to it if the accuracy of best response is less than 85%, then top two google searches are also provided for reference. If the input is not valid i.e, other than plain english text, be it pictures or hindi text,  then the error message is sent as a reply to the user.
 
 Model Used:
